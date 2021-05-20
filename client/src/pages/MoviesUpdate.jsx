@@ -95,7 +95,8 @@ class MoviesUpdate extends Component {
         const { name, rating, time } = this.state
         return (
             <Wrapper>
-                <Title>Create Movie</Title>
+                <br></br>
+                <Title>Update Movie</Title>
 
                 <Label>Name: </Label>
                 <InputText
@@ -123,7 +124,7 @@ class MoviesUpdate extends Component {
                     onChange={this.handleChangeInputTime}
                 />
 
-                <Button onClick={this.handleUpdateMovie}>Update Movie</Button>
+                <Button onClick={this.handleUpdateMovie} href ={'/movies/list'}>Update Movie</Button>
                 <CancelButton href={'/movies/list'}>Cancel</CancelButton>
             </Wrapper>
         )

@@ -128,6 +128,7 @@ class MoviesList extends Component {
 
         return (
             <Wrapper>
+                <br></br>
                 {showTable && (
                     <ReactTable
                         data={movies}

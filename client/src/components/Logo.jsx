@@ -11,7 +11,7 @@ class Logo extends Component {
     render() {
         return (
             <Wrapper href="https://www.netflix.com">
-                <img src={logo} width="50" height="50" alt="sambarros.com" />
+                <img src={logo} width="50" height="50" alt="movieIcon" />
             </Wrapper>
         )
     }
