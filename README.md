@@ -1,4 +1,5 @@
-# To start the application we should run this command :
-- 1)docker build -t "react-app" ./client/
-- 2)docker build -t "api-server" ./server/
-- 3)docker-compose up
+# MERN Docker Compose project 
+## To start the project you should run this command :
+- docker build -t "react-app" ./client/
+- docker build -t "api-server" ./server/
+- docker-compose up
